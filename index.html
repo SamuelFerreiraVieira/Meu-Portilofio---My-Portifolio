@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Ferreira / Portfólio</title>
+    
+    
+</head>
+
+ <link rel="stylesheet" href="style.css">
+
+
+<body>
+
+    <div class="particula">
+
+    </div>
+     
+    <nav class="navegator">
+    <ul class="menu">
+<li>
+    <a href="#inicio" class="menu-link">Ínicio</a>
+</li>
+<li>
+    <a href="#sobre" class="menu-link">Sobre</a>
+</li>
+<li>
+    <a href="#projetos" class="menu-link">Projetos</a>
+</li>
+<li>
+    <a href="#contato" class="menu-link">Contato</a>
+</li>
+    </ul>
+    </nav>
+     
+
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="samuca.jpeg" alt="Foto de Samuel Ferreira" class="foto-perfil">
+            <h1>Samuel Ferreira</h1>
+            <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
+            
+        </div>
+
+    </main>
+    
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá! Sou um desenvolvedor front-end apaixonado por criar experiências web únicas e memoráveis. Combino código limpo com design moderno para desenvolver sites que não só funcionam perfeitamente, mas também impressionam visualmente.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+
+    <h2 class="projetos-titulo">Meus Projetos</h2>
+    <div class="projetos-caixa">
+        <div class="projetos-card">
+            <img src="3371524.jpg" alt="projeto 1" class="projetos-imagem">
+            <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Calculadora Virtual</h3>
+            <p class="paragrafo-projetos">Uma calculadora com interface intuitiva, capaz de realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão.</p>
+
+            </div>
+        </div>
+
+        <div class="projetos-card">
+            <img src="7475603.jpg.webp" alt="projeto 2" class="projetos-imagem">
+            <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Web Sites modernos e intuitivos</h3>
+            <p class="paragrafo-projetos">Websites modernos, intuitivos e feitos para impressionar.</p>
+            </div>
+
+        </div>
+
+        <div class="projetos-card">
+            <img src="projeto1 (1).png" alt="projeto 3" class="projetos-imagem">
+            <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Loja de carros virtual</h3>
+            <p class="paragrafo-projetos">Loja virtual moderna com animações suaves e design responsivo para uma loja de carros de luxo</p>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section id="contato" class="contato">
+        <h2 class="contatos-titulo">Entre em contato</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                  <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                  <textarea placeholder="Digite sua mensagem" class="campo-form" rows="10" id="mensagem"></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+
+
+    </section>
+
+    <script>
+       const nome = document.getElementById('nome');
+       const mensagem = document.getElementById('mensagem');
+       const telefone = ''
+       const texto = 'Ola! Me chamo ${nome}, ${mensagem}'
+       const msgFormatada = encodeURIComponent(texto)
+
+
+    </script>
+    
+</body>
+
+
+
+
+
+</html>
